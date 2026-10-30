@@ -1,3 +1,32 @@
+# Você está desenvolvendo um pequeno editor de texto que registra as últimas operações realizadas pelo usuário.
+
+# Cada operação possui um número inteiro que representa uma ação realizada no sistema.
+
+# O programa deverá permitir que o usuário execute as seguintes operações:
+
+# - 1 X → adiciona a operação X à pilha;
+# - 2 → desfaz a última operação realizada;
+# - 3 → mostra a última operação existente na pilha;
+# - 0 → encerra o programa.
+
+# Restrições
+
+# É obrigatório utilizar uma lista Python como pilha.
+# A inserção deverá ser realizada utilizando append().
+# A remoção deverá ser realizada utilizando pop().
+# É proibido utilizar queue, deque ou qualquer biblioteca de estrutura de dados.
+# É proibido utilizar remove() para retirar elementos.
+# É proibido utilizar sort() ou sorted().
+# A operação de consulta (3) não pode remover o elemento da pilha.
+# O programa deverá tratar corretamente a tentativa de executar 2 quando a pilha estiver vazia.
+# O programa deverá tratar corretamente a tentativa de executar 3 quando a pilha estiver vazia.
+# Não é permitido utilizar max() ou min().
+# Não é permitido utilizar clear() para esvaziar a pilha.
+# A pilha deverá funcionar segundo o princípio LIFO — Last In, First Out.
+# Não é permitido utilizar classes.
+# Não é permitido criar funções utilizando def.
+# O programa deverá continuar aceitando operações até que o usuário informe 0.
+
 pilha = []
 #Aqui estou definindo a lista que vou utilizar nesse problema
 
